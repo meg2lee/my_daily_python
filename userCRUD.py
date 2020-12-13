@@ -1,3 +1,5 @@
+from member import *
+
 def read_file():
     info = input("회원번호,이름,전화;")
     num,name,phone = info.split(',')
